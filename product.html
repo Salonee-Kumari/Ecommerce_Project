@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+  <!-- nav starts here -->
+  <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+
+  <nav id="menu" class="hidden">
+    <ul class="nav-upper flex-space-around">
+      <li class="nav__list">
+        <a href="index.html" class="nav__link">Home</a>
+      </li>
+      <li class="nav__list">
+        <a href="register.html" class="nav__link">Register</a>
+      </li>
+      <li class="nav__list">
+        <a href="login.html" class="nav__link">Login</a>
+      </li>
+      <li class="nav__list">
+        <a href="index.html" class="nav__link">Logout</a>
+      </li>
+      <li class="nav__list">
+        <a href="contact.html" class="nav__link">Contact</a>
+      </li>
+      <li class="nav__list">
+        <a href="profile.html" class="nav__link">
+          <img src="./images/Saloni_imag-remove.png" class="profile-icon" alt="profile image">
+        </a>
+      </li>
+    </ul>
+
+    <ul class="nav-lower flex-space-around">
+      <li class="nav__list">
+        <a href="index.html" class="nav__link nav__brand">Saloni Kumari</a>
+      </li>
+      <li class="nav__list">
+        <a href="cart.html" class="nav__link">
+          <span>
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart2 products-$124.40
+          </span>
+        </a>
+      </li>
+  </nav>
+  <!-- nav ends here -->
+
+  <script src="index.js"></script>
+
+  
+    <main class="flex-center">
+      <div class="main-content">
+        <section class="product-details flex-center">
+          <div class="product-details__left flex-center">
+            <img src="/Ecommerce-project/images/blutooth.avif" alt="Product1" class="product-details__img">
+          </div>
+          <div class="product-details__right">
+            <h3 class="product__name">Boat V-4 Bluetooth</h3>
+            <p> 
+              <span class="dot green"></span>
+              <span class="dot black"></span>
+              <span class="dot red"></span>
+            </p>
+            <p class="product__description">
+              <strong>Description: </strong>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis saepe reiciendis sapiente earum tempore adipisci, quasi mollitia laboriosam necessitatibus minus sequi quisquam aliquid sint magnam, incidunt similique, consectetur veniam! In dolorem natus eaque ducimus, cum dolorum culpa? Ab, excepturi consectetur eos totam pariatur, tenetur necessitatibus architecto repellat est blanditiis nam voluptas labore saepe. Aspernatur enim unde magnam minus quas sapiente possimus a molestiae autem voluptates repudiandae inventore laborum quae dicta ipsam, tempora iste sit ullam earum. Placeat repellendus ipsa temporibus tenetur?
+              
+            </p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea suscipit architecto aperiam commodi accusantium delectus nobis vero, ullam totam voluptas nihil enim rem quisquam neque magnam rerum laudantium optio quo dignissimos sapiente? Magnam quaerat veniam at soluta debitis consectetur reprehenderit quos tempora deserunt? A rem dolores ipsam tempore ducimus mollitia, minus consequuntur reiciendis atque culpa accusamus, quasi aspernatur maxime quaerat.</p>
+            <h4 class="product__category">Category: Bluetooth</h4>
+            <h4 class="product__price">$225.99</h4>
+            <p class="product__rating"><strong>Rating:</strong> 4.5/5</p>
+            <button class="btn product__btn">Add to Cart</button>
+            <button class="btn product__btn">Back to shopping</button>
+          </div>
+        </section>
+      <div>
+    </main>
+ 
+  <footer class=" footer flex-space-around">
+    <div class="flex-space-around">
+      <label for="subscribe">Subscribe to Newsletter: </label>
+      <input 
+      type="email" 
+      id="subscribe" 
+      name="subscribe"
+      class="footer__input" 
+      placeholder="Your email">
+      <button class="btn btn-subscribe">Subscribe</button>
+    </div>
+    <div>
+      <p>&copy; Copyright 2023 Saloni Kumari. All rights reserved</p>
+    </div>
+  </footer>
+
+</body>
+</html>
